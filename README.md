@@ -1,5 +1,10 @@
 # Case Study: Cyclistic Bike-Share Analysis
 
+## Introduction
+Welcome to my Cyclistic Bike-Share data analysis. This capstone project was developed for the Google Data Analytics Professional Certificate to showcase an end-to-end data workflow.
+
+In this project, I cleaned and analyzed nearly 6 million rows of trip data using MySQL and built an interactive visualization dashboard in Tableau Public to uncover actionable business insights.
+
 ## Project Overview
 This project analyzes the 2024 historical trip data of Cyclistic, a bike-share company in Chicago. The goal is to understand how casual riders and annual members use Cyclistic bikes differently.
 
