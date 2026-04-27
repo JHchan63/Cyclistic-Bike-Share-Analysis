@@ -13,4 +13,4 @@ This project analyzes the 2024 historical trip data of Cyclistic, a bike-share c
 * (Type your third finding here...)
 
 ## Dashboard
-You can view the full interactive dashboard on my Tableau Public profile here: [Insert Link to your Tableau Public]
+You can view the full interactive dashboard on my Tableau Public profile here: [Cyclistic Bike-Share Analysis Dashboard](https://public.tableau.com/app/profile/chan.jin.hui/viz/Cyclisticbikeshareanalysis_17772213034970/CyclisticBike-ShareDashboard)
