@@ -18,10 +18,8 @@ To answer the business questions and ensure a structured approach, this project 
 
 
 ## 1. Ask ❓
-The main objective is to determine the best marketing strategies to convert casual riders into annual members. The analysis is guided by three main questions:
-1. How do annual members and casual riders use Cyclistic bikes differently?
-2. Why would casual riders buy Cyclistic annual memberships?
-3. How can Cyclistic use digital media to influence casual riders to become members?
+The main objective is to determine the best marketing strategies to convert casual riders into annual members. The analysis is guided by the main question:
+How do annual members and casual riders use Cyclistic bikes differently?
 
 
 ## 2. Prepare 🛠️
@@ -44,6 +42,7 @@ SELECT * FROM feb_2024
 -- ... (continue for all 12 months)
 ```
 
+
 ## 3. Process 🧹
 To ensure the data is accurate, consistent, and ready for analysis, I performed the following data cleaning and manipulation steps in MySQL:
 
@@ -55,7 +54,6 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
   * **Action Taken:** I chose *not* to delete these rows. Because certain ride types (like electric bikes and electric scooters) are dockless and can be locked anywhere, a missing station name is valid data. 
   * I replaced the `NULL` station names with `'on street'` and replaced the `NULL` station IDs with `'NA'`.
 
----
 
 ## 4. Analyze 📊
 *(In this section, we explore the data to find trends and relationships between casual riders and members).*
@@ -70,7 +68,6 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 
 *(Add as many charts and explanations as you need!)*
 
----
 
 ## 5. Share 📈
 To effectively communicate these findings to the executive team, I created an interactive dashboard in Tableau.
@@ -84,7 +81,6 @@ To effectively communicate these findings to the executive team, I created an in
 2. **Insight 2:** (e.g., Members use bikes primarily for weekday commuting.)
 3. **Insight 3:** (e.g., Electric bikes are the most popular choice for dockless 'on street' rides.)
 
----
 
 ## 6. Act & Conclusion 💡
 From the analysis, I have prepared the top three recommendations to help the marketing team convert casual riders into annual members:
