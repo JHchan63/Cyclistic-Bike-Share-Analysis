@@ -38,11 +38,11 @@ The 12 monthly CSV files were imported into MySQL and combined into a single, co
 -- Example MySQL code used for combining the tables:
 create table `2024-divvy-tripdata` as (
 select * from `202401-divvy-tripdata`
-    union all 
-    select * from `202402-divvy-tripdata`
-    union all
-    select * from `202403-divvy-tripdata`
-    union all
+union all 
+select * from `202402-divvy-tripdata`
+union all
+select * from `202403-divvy-tripdata`
+union all
 -- ... (continue for all 12 months)
 ```
 
