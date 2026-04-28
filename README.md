@@ -14,7 +14,7 @@ Cyclistic's marketing strategy relied on building general awareness and appealin
 The primary goal of this project is to design a new marketing strategy to convert casual riders into annual members. Acting as a junior data analyst on the marketing analytics team, my goal is to analyze historical trip data to uncover how casual riders and annual members use the service differently. These data-driven insights will guide the Director of Marketing and the executive team in developing targeted digital campaigns to convert casual riders into long-term annual members
 
 To answer the business questions and ensure a structured approach, this project follows the six steps of the data analysis process:
-**[Ask](#1-ask)**, **[Prepare](#2-prepare)**, **[Process](#3-process)**, **[Analyze](#4-analyze)**, **[Share](#5-share)**, and **[Act](#6-act--conclusion)**.
+**[Ask](#1-Ask)**, **[Prepare](#2-Prepare)**, **[Process](#3-Process)**, **[Analyze](#4-analyze)**, **[Share](#5-share)**, and **[Act](#6-act--conclusion)**.
 
 
 ## 1. Ask ❓
