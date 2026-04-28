@@ -4,13 +4,13 @@
 This project is the capstone project for the **Google Data Analytics Professional Certificate**. In this project, I cleaned and analyzed nearly 6 million rows of trip data using **MySQL** and built an interactive visualization dashboard in **Tableau Public** to uncover actionable business insights.
 
 ## 📋 Project Overview
-*** Company Bcakground:**
+* **Company Bcakground:**
 Cyclistic is a fictional bike-share company in Chicago that launched a successful bike-share program in 2016. The company operates a network of 692 stations and a fleet of 5,824 geotracked bicycles across Chicago.
 
-*** Business Challenge:**
+* ** Business Challenge:**
 Cyclistic's marketing strategy relied on building general awareness and appealing to broad consumer segments through flexible pricing: single-ride passes, full-day passes, and annual memberships. Users who purchase single-ride or full-day passes are classified as casual riders, while those purchasing annual subscriptions are Cyclistic members. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships.
 
-*** Project Objective:**
+* ** Project Objective:**
 The primary goal of this project is to design a new marketing strategy to convert casual riders into annual members. Acting as a junior data analyst on the marketing analytics team, my goal is to analyze historical trip data to uncover how casual riders and annual members use the service differently. These data-driven insights will guide the Director of Marketing and the executive team in developing targeted digital campaigns to convert casual riders into long-term annual members
 
 
