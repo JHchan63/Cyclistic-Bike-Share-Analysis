@@ -14,7 +14,7 @@ Cyclistic's marketing strategy relied on building general awareness and appealin
 The primary goal of this project is to design a new marketing strategy to convert casual riders into annual members. Acting as a junior data analyst on the marketing analytics team, my goal is to analyze historical trip data to uncover how casual riders and annual members use the service differently. These data-driven insights will guide the Director of Marketing and the executive team in developing targeted digital campaigns to convert casual riders into long-term annual members
 
 To answer the business questions and ensure a structured approach, this project follows the six steps of the data analysis process: 
-**[Ask](#1.-ask-)**, **[Prepare](#2.-prepare-)**, **[Process](#3.-process-)**, **[Analyze](#4.-analyze-)**, **[Share](#5.-share-)**, and **[Act](#6.-act--conclusion-)**.
+**[Ask](##1.-ask-)**, **[Prepare](##2.-prepare-)**, **[Process](##3.-process-)**, **[Analyze](##4.-analyze-)**, **[Share](##5.-share-)**, and **[Act](##6.-act--conclusion-)**.
 
 
 ## 1. Ask ❓
@@ -44,7 +44,7 @@ SELECT * FROM feb_2024
 -- ... (continue for all 12 months)
 ```
 
-## 3️⃣ Process 🧹
+## 3. Process 🧹
 To ensure the data is accurate, consistent, and ready for analysis, I performed the following data cleaning and manipulation steps in MySQL:
 
 * **Removed Duplicates:** Checked for and removed any duplicate `ride_id` entries to ensure data integrity.
@@ -57,7 +57,7 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 
 ---
 
-## 4️⃣ Analyze 📊
+## 4. Analyze 📊
 *(In this section, we explore the data to find trends and relationships between casual riders and members).*
 
 ### Ride Length by Customer Type
@@ -72,7 +72,7 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 
 ---
 
-## 5️⃣ Share 📈
+## 5. Share 📈
 To effectively communicate these findings to the executive team, I created an interactive dashboard in Tableau.
 
 **🔗 [View the Full Interactive Tableau Dashboard Here](insert_your_tableau_public_link_here)**
@@ -86,7 +86,7 @@ To effectively communicate these findings to the executive team, I created an in
 
 ---
 
-## 6️⃣ Act & Conclusion 💡
+## 6. Act & Conclusion 💡
 From the analysis, I have prepared the top three recommendations to help the marketing team convert casual riders into annual members:
 
 1. **Recommendation 1:** (e.g., Introduce a "Weekend Warrior" annual membership tier since casual riders are most active on weekends.)
