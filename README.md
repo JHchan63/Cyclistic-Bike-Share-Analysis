@@ -1,16 +1,17 @@
 # Case Study: Cyclistic Bike-Share Data Analysis
 
 ## 🌟 Introduction
-This project is the capstone project for the **Google Data Analytics Professional Certificate**. In this project, I am acting as a junior data analyst working on the marketing analytics team at Cyclistic, a fictional bike-share company in Chicago. 
+This project is the capstone project for the **Google Data Analytics Professional Certificate**. In this project, I cleaned and analyzed nearly 6 million rows of trip data using **MySQL** and built an interactive visualization dashboard in **Tableau Public** to uncover actionable business insights.
 
 ## 📋 Project Overview
+In this project, I am acting as a junior data analyst working on the marketing analytics team at Cyclistic, a fictional bike-share company in Chicago. 
 The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. The primary goal of this project is to design a new marketing strategy to convert casual riders into annual members. 
 
 To answer the business questions and ensure a structured approach, this project follows the six steps of the data analysis process: **Ask, Prepare, Process, Analyze, Share, and Act**.
 
 ---
 
-## 1️⃣ Ask ❓
+## 1. Ask ❓
 The main objective is to determine the best marketing strategies to convert casual riders into annual members. The analysis is guided by three main questions:
 1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships?
@@ -18,7 +19,7 @@ The main objective is to determine the best marketing strategies to convert casu
 
 ---
 
-## 2️⃣ Prepare 🛠️
+## 2. Prepare 🛠️
 ### Data Source
 This analysis uses 12 months of historical trip data spanning from January 2024 to December 2024. The data has been made available by Motivate International Inc. under this [license](insert_link_here). 
 
