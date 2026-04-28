@@ -24,7 +24,7 @@ How do annual members and casual riders use Cyclistic bikes differently?
 
 ## 2. Prepare 🛠️
 ### Data Source
-This analysis uses 12 months of historical trip data spanning from January 2024 to December 2024. The data has been made available by Motivate International Inc. under this [license](insert_link_here). 
+This analysis uses 12 months of historical trip data spanning from January 2024 to December 2024 [Data Source](insert_link_here). The data has been made available by Motivate International Inc. under this [license](insert_link_here). 
 
 ### Tools Used
 * **MySQL:** Data aggregation, cleaning, and processing.
