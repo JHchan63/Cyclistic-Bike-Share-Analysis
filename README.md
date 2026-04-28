@@ -9,7 +9,7 @@ The director of marketing believes the company’s future success depends on max
 
 To answer the business questions and ensure a structured approach, this project follows the six steps of the data analysis process: **Ask, Prepare, Process, Analyze, Share, and Act**.
 
----
+--
 
 ## 1. Ask ❓
 The main objective is to determine the best marketing strategies to convert casual riders into annual members. The analysis is guided by three main questions:
@@ -17,7 +17,7 @@ The main objective is to determine the best marketing strategies to convert casu
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
----
+--
 
 ## 2. Prepare 🛠️
 ### Data Source
