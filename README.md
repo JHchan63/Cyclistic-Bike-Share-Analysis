@@ -14,17 +14,17 @@ Cyclistic's marketing strategy relied on building general awareness and appealin
 The primary goal of this project is to design a new marketing strategy to convert casual riders into annual members. Acting as a junior data analyst on the marketing analytics team, my goal is to analyze historical trip data to uncover how casual riders and annual members use the service differently. These data-driven insights will guide the Director of Marketing and the executive team in developing targeted digital campaigns to convert casual riders into long-term annual members
 
 To answer the business questions and ensure a structured approach, this project follows the six steps of the data analysis process: 
-**[Ask](#1.-ask-)**, **[Prepare](#2.-prepare-)**, **[Process](#3.-process-)**, **[Analyze](#4.-analyze-)**, **[Share](#5.-share-)**, and **[Act](#6.-act--conclusion-)**.
+**[Ask](#1.--ask-)**, **[Prepare](#2.--prepare-)**, **[Process](#3.--process-)**, **[Analyze](#4.--analyze-)**, **[Share](#5.--share-)**, and **[Act](#6.--act--conclusion-)**.
 
 
-## 1.Ask ❓
+## 1. Ask ❓
 The main objective is to determine the best marketing strategies to convert casual riders into annual members. The analysis is guided by three main questions:
 1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 
-## 2.Prepare 🛠️
+## 2. Prepare 🛠️
 ### Data Source
 This analysis uses 12 months of historical trip data spanning from January 2024 to December 2024. The data has been made available by Motivate International Inc. under this [license](insert_link_here). 
 
@@ -44,7 +44,7 @@ SELECT * FROM feb_2024
 -- ... (continue for all 12 months)
 ```
 
-## 3.Process 🧹
+## 3. Process 🧹
 To ensure the data is accurate, consistent, and ready for analysis, I performed the following data cleaning and manipulation steps in MySQL:
 
 * **Removed Duplicates:** Checked for and removed any duplicate `ride_id` entries to ensure data integrity.
