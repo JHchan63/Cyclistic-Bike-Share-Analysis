@@ -79,9 +79,25 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
   GROUP BY rideable_type; -- 3 type of share bikes
   ```
   
-* **Handled Null Values (Missing Data):** Discovered `NULL` values exclusively in the `start_station_name`, `end_station_name`, `start_station_id`, and `end_station_id` columns. 
-  * **Action Taken:** I chose *not* to delete these rows. Because certain ride types (like electric bikes and electric scooters) are dockless and can be locked anywhere, a missing station name is valid data. 
-  * I replaced the `NULL` station names with `'on street'` and replaced the `NULL` station IDs with `'NA'`.
+* **Handled Null Values (Missing Data):** Discovered `NULL` values exclusively in the `start_station_name`, `end_station_name`, `start_station_id`, and `end_station_id` columns.
+  * Before removing any missing data, I ran a query to understand which types of rides were missing station names.
+  ```sql
+  SELECT rideable_type, COUNT(*) as number_of_rides
+  FROM `2024-divvy-tripdata_cleaned`
+  WHERE (start_station_name IS NULL OR start_station_name = '' OR start_station_name = 'null')
+	  OR (end_station_name IS NULL OR end_station_name = '' OR end_station_name = 'null')
+  GROUP BY rideable_type;
+  ```
+  * **Findings:** The results revealed over 1.6 million rows of missing station data, distributed across 3 ride types:
+    | rideable_type | number_of_rides |
+    | :--- | :--- |
+    | electric_bike | 1,548,143 |
+    | electric_scooter | 96,510 |
+    | classic_bike | 41 |
+
+  * **Action Taken:**  I chose *not* to delete these rows. Dropping over 1.5 million rows would result in a massive loss of crucial data, skewing our analysis on riding time and ride-type preferences. Furthermore, the       missing data is almost entirely tied to electric bikes and scooters. Because these vehicles are dockless, users often end their trips by locking them on the street rather than returning them to a designated station.       Therefore, a missing station name is actually valid behavioral data.
+
+  * I replaced the `NULL` station names with `On Street` and replaced the `NULL` station IDs with `'NA'`.
     
   ```sql
   UPDATE `2024-divvy-tripdata_cleaned`
