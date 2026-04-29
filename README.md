@@ -50,7 +50,7 @@ union all
 ## 3. Process 🧹
 To ensure the data is accurate, consistent, and ready for analysis, I performed the following data cleaning and manipulation steps in MySQL:
 
-* **Created Data Backup:** Before executing any cleaning queries, created a backup table and using new table `2024-divvy-tripdata_cleaned` for cleaning process to preserve the original dataset. 
+* **Created Data Backup:** Before executing any cleaning queries, created a backup table and using new table named `2024-divvy-tripdata_cleaned` for cleaning process to preserve the original dataset. 
 * **Removed Duplicates:** Checked and removed any duplicate `ride_id` entries to ensure data integrity (220 rows duplicate `ride_id` were removed)
 * **Added Calculated Columns:** Created new columns for `ride_length_mins`, `day_of_week`, and `month` to facilitate time-based analysis.
   
@@ -66,7 +66,12 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
   ```
   
 * **Removed Outliers:** Filtered out erroneous data where `ride_length_mins` was less than 0 minutes or greater than 1,440 minutes (24 hours).
-
+  ```sql
+  delete from `2024-divvy-tripdata_cleaned`
+  where ride_length_mins < 0 
+  or ride_length_mins > 1440
+  ; -- 7646 rows affected, 7646 row outlier removed 
+  ```
   
 * **Ride Type Categorization:** Identified and confirmed 3 distinct types of rideable bicycles used in the dataset.
 * **Handled Null Values (Missing Data):** * Discovered `NULL` values exclusively in the `start_station_name`, `end_station_name`, `start_station_id`, and `end_station_id` columns. 
