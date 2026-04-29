@@ -120,7 +120,7 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 <img width="427" height="308" alt="image" src="https://github.com/user-attachments/assets/88868acb-20d8-41fb-ae66-459f61a54537" /> 
 <br>
 
-*  Annual members in Cyclistic were the significantly higher proportion which is 63% in total compared to the casual riders in 2024.
+*  Annual members in Cyclistic were the significantly higher proportion which is 63% in total compared to the casual riders only 37% in total in 2024.
 
 ### Total Number of Rides by Types of Bikes (Members vs. Casual Riders)  
 <img width="1543" height="829" alt="image" src="https://github.com/user-attachments/assets/f08e8d23-2a4f-4c52-a241-3c32726921d5" />
@@ -136,10 +136,23 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 <br>
 
 * Altough electrical bikes have the highest amount of total rides but the highest of total riding time is classic bike, this is because the trip time that a classic bike will take longer than the electric bike as electric bike is take lower human power on riding.
-* 
+* Altough the distribution on total number of ride for members is significantly higher around double of casual riders, but casual riders have the higher total amount of trip duration compared to the members.
+* From the trip duration, we can conclude that day pass that used by casual user will take longer time using for bikes compared the to members due to the psychological thinking for the casual riders that when buying the day pass need to use it until the value earn back.
 
+### Weekly Average Ride Duration (Members vs. Casual Riders)  
+<img width="1542" height="830" alt="image" src="https://github.com/user-attachments/assets/d3820aa5-3b29-4b47-ad54-22966e97df82" />
+<br>
 
+* Weekend is the days that both members and casual riders spend longer average time compared to the weekdays
+* Casual riders spend longer time on riding no matter weekday or weekend
 
+### Monthly Total Ride Trips (Members vs. Casual Riders)  
+<img width="1543" height="799" alt="image" src="https://github.com/user-attachments/assets/e1e97640-8a06-4e9c-82e7-bd30c10447dd" />
+<br>
+
+* from the annual trend line chart, june to september is a upper trends which is the peak session months on using share bikes.
+* September is the most higher peak session in 2024.
+* start from october to january, it is the lower session on using share bike especially on january is the lowest session in 2024.
 
 ## 5. Share 📈
 To effectively communicate these findings to the executive team, I created an interactive dashboard in Tableau.
