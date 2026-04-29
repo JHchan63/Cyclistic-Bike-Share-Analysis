@@ -122,11 +122,23 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 
 *  Annual members in Cyclistic were the significantly higher proportion which is 63% in total compared to the casual riders in 2024.
 
-### Total Rides by Day of the Week
-![Chart 2 Screenshot](insert_image_link_here)
-> *Explanation: Add 1-2 sentences here explaining which days are busiest for members compared to casual riders.*
+### Total Number of Rides by Types of Bikes (Members vs. Casual Riders)  
+<img width="1543" height="829" alt="image" src="https://github.com/user-attachments/assets/f08e8d23-2a4f-4c52-a241-3c32726921d5" />
+<br>
 
-*(Add as many charts and explanations as you need!)*
+* Cyclistic have 3 types of bikes which is classic bike, electric bike and electric scooter.
+* Both members and casual riders in Cyclistic more prefer electric bike compared to other types of ride cause electric bike have the largest total amount of ride compared to other types of ride.
+
+### Total Duration of Rides Among Different Types of Bikes (Members vs. Casual Riders)  
+<img width="1542" height="399" alt="image" src="https://github.com/user-attachments/assets/5cf8bc3a-8520-4306-b703-f6ae0ee4ad61" />
+<br>
+<img width="401" height="239" alt="image" src="https://github.com/user-attachments/assets/c4ba9d74-6133-4928-ad24-b81c2f49e5d2" />
+<br>
+
+* Altough electrical bikes have the highest amount of total rides but the highest of total riding time is classic bike, this is because the trip time that a classic bike will take longer than the electric bike as electric bike is take lower human power on riding.
+* 
+
+
 
 
 ## 5. Share 📈
