@@ -53,7 +53,6 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 * **Created Data Backup:** Before executing any cleaning queries, created a backup table and using new table named `2024-divvy-tripdata_cleaned` for cleaning process to preserve the original dataset. 
 * **Removed Duplicates:** Checked and removed any duplicate `ride_id` entries to ensure data integrity (220 rows duplicate `ride_id` were removed)
 * **Added Calculated Columns:** Created new columns for `ride_length_mins`, `day_of_week`, and `month` to facilitate time-based analysis.
-  
   ```sql
   update `2024-divvy-tripdata_cleaned`
   set ride_length_mins = timestampdiff(minute, started_at, ended_at);
