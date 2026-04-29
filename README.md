@@ -50,7 +50,10 @@ union all
 ## 3. Process 🧹
 To ensure the data is accurate, consistent, and ready for analysis, I performed the following data cleaning and manipulation steps in MySQL:
 
-* **Created Data Backup:** Before executing any cleaning queries, created a backup table and using new table named `2024-divvy-tripdata_cleaned` for cleaning process to preserve the original dataset. 
+* **Created Data Backup:** Before executing any cleaning queries, created a backup table and using new table named `2024-divvy-tripdata_cleaned` for cleaning process to preserve the original dataset. The table columns and their corresponding data types were shown as follows:
+  <img width="280" height="305" alt="image" src="https://github.com/user-attachments/assets/a6a28dd9-7c97-40b5-bd99-0f4a03b91d91" />
+<br>
+
 * **Removed Duplicates:** Checked and removed any duplicate `ride_id` entries to ensure data integrity (220 rows duplicate `ride_id` were removed)
 * **Added Calculated Columns:** Created new columns for `ride_length_mins`, `day_of_week`, and `month` to facilitate time-based analysis.
   ```sql
@@ -118,7 +121,7 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 <img width="427" height="308" alt="image" src="https://github.com/user-attachments/assets/88868acb-20d8-41fb-ae66-459f61a54537" /> 
 <br>
 
-*  Annual members in Cyclistic were the significanntly higher proportion which is 63% in total compare to the casual riders in 2024.
+*  Annual members in Cyclistic were the significantly higher proportion which is 63% in total compared to the casual riders in 2024.
 
 ### Total Rides by Day of the Week
 ![Chart 2 Screenshot](insert_image_link_here)
