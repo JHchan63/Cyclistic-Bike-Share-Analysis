@@ -54,8 +54,13 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 * **Added Calculated Columns:** Created new columns for `ride_length_mins`, `day_of_week`, and `month` to facilitate time-based analysis.
   ```sql
   update `2024-divvy-tripdata_cleaned`
-  set ride_length_mins = timestampdiff(minute, started_at, ended_at)
-  ;
+  set ride_length_mins = timestampdiff(minute, started_at, ended_at);
+
+  update `2024-divvy-tripdata_cleaned`
+  set day_of_week = dayname(started_at);
+
+  update `2024-divvy-tripdata_cleaned`
+  set month = monthname(started_at);
   ```
 * **Removed Outliers:** Filtered out erroneous data where `ride_length_mins` was less than 0 minutes or greater than 1,440 minutes (24 hours).
 * **Ride Type Categorization:** Identified and confirmed 3 distinct types of rideable bicycles used in the dataset.
