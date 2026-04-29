@@ -81,6 +81,7 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
   
 * **Handled Null Values (Missing Data):** Discovered `NULL` values exclusively in the `start_station_name`, `end_station_name`, `start_station_id`, and `end_station_id` columns.
   * Before removing any missing data, I ran a query to understand which types of rides were missing station names.
+  <br>
   ```sql
   SELECT rideable_type, COUNT(*) as number_of_rides
   FROM `2024-divvy-tripdata_cleaned`
@@ -114,7 +115,7 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 
 ### Total Number of Rides by Membership Types in 2024 
 <img width="427" height="308" alt="image" src="https://github.com/user-attachments/assets/88868acb-20d8-41fb-ae66-459f61a54537" /> 
-
+<br>
 *  Annual members in Cyclistic were the significanntly higher proportion which is 63% in total compare to the casual riders in 2024.
 
 ### Total Rides by Day of the Week
