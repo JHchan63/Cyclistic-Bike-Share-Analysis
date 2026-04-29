@@ -74,6 +74,10 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
   ```
   
 * **Ride Type Categorization:** Identified and confirmed 3 distinct types of rideable bicycles used in the dataset.
+  ```sql
+  
+  ```
+  
 * **Handled Null Values (Missing Data):** * Discovered `NULL` values exclusively in the `start_station_name`, `end_station_name`, `start_station_id`, and `end_station_id` columns. 
   * **Action Taken:** I chose *not* to delete these rows. Because certain ride types (like electric bikes and electric scooters) are dockless and can be locked anywhere, a missing station name is valid data. 
   * I replaced the `NULL` station names with `'on street'` and replaced the `NULL` station IDs with `'NA'`.
