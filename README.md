@@ -82,10 +82,15 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 * **Handled Null Values (Missing Data):** Discovered `NULL` values exclusively in the `start_station_name`, `end_station_name`, `start_station_id`, and `end_station_id` columns. 
   * **Action Taken:** I chose *not* to delete these rows. Because certain ride types (like electric bikes and electric scooters) are dockless and can be locked anywhere, a missing station name is valid data. 
   * I replaced the `NULL` station names with `'on street'` and replaced the `NULL` station IDs with `'NA'`.
+    
   ```sql
   UPDATE `2024-divvy-tripdata_cleaned`
   SET start_station_name = 'On Street', start_station_id = 'N/A'
   WHERE start_station_name IS NULL OR start_station_name = '' OR start_station_name = 'null';
+
+  UPDATE `2024-divvy-tripdata_cleaned`
+  SET end_station_name = 'On Street', end_station_id = 'N/A'
+  WHERE end_station_name IS NULL OR end_station_name = '' OR end_station_name = 'null';
   ```
 
 ## 4. Analyze 📊
