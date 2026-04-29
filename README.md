@@ -50,7 +50,7 @@ union all
 ## 3. Process 🧹
 To ensure the data is accurate, consistent, and ready for analysis, I performed the following data cleaning and manipulation steps in MySQL:
 
-* **Removed Duplicates:** Checked for and removed any duplicate `ride_id` entries to ensure data integrity.
+* **Removed Duplicates:** Checked and removed any duplicate `ride_id` entries to ensure data integrity (220 rows duplicate `ride_id` were removed)
 * **Added Calculated Columns:** Created new columns for `ride_length_mins`, `day_of_week`, and `month` to facilitate time-based analysis.
 * **Removed Outliers:** Filtered out erroneous data where `ride_length_mins` was less than 0 minutes or greater than 1,440 minutes (24 hours).
 * **Ride Type Categorization:** Identified and confirmed 3 distinct types of rideable bicycles used in the dataset.
