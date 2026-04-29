@@ -96,7 +96,7 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 ## 4. Analyze 📊
 *(In this section, we explore the data to find trends and relationships between casual riders and members).*
 
-### Ride Length by Customer Type
+### Total Number of Rides by Member Types in 2024 
 <img width="427" height="308" alt="image" src="https://github.com/user-attachments/assets/88868acb-20d8-41fb-ae66-459f61a54537" />
 > *Explanation: Add 1-2 sentences here explaining what this chart tells us about how long casuals ride versus members.*
 
