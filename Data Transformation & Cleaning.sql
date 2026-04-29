@@ -90,7 +90,7 @@ SELECT rideable_type, COUNT(*) as number_of_rides
 FROM `2024-divvy-tripdata_cleaned`
 WHERE (start_station_name IS NULL OR start_station_name = '' OR start_station_name = 'null')
 	OR (end_station_name IS NULL OR end_station_name = '' OR end_station_name = 'null')
-GROUP BY rideable_type;-- electric_bike (1548143 rides), electric_scooter (96510 rides), classic_bike (41 rides)
+GROUP BY rideable_type;-- the null data stations consist of electric_bike (1548143 rides), electric_scooter (96510 rides), classic_bike (41 rides)
 
 UPDATE `2024-divvy-tripdata_cleaned`
 SET start_station_name = 'On Street', start_station_id = 'N/A'
