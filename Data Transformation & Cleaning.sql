@@ -86,6 +86,12 @@ SELECT
     SUM(CASE WHEN ride_length_mins IS NULL THEN 1 ELSE 0 END) AS null_ride_length
 FROM `2024-divvy-tripdata_cleaned`; -- null_start_stations & null_start_station_id (1073874 null), null_end_stations & null_end_station_id (1097117 null)
 
+SELECT rideable_type, COUNT(*) as number_of_rides
+FROM `2024-divvy-tripdata_cleaned`
+WHERE (start_station_name IS NULL OR start_station_name = '' OR start_station_name = 'null')
+	OR (end_station_name IS NULL OR end_station_name = '' OR end_station_name = 'null')
+GROUP BY rideable_type;-- electric_bike (1548143 rides), electric_scooter (96510 rides), classic_bike (41 rides)
+
 UPDATE `2024-divvy-tripdata_cleaned`
 SET start_station_name = 'On Street', start_station_id = 'N/A'
 WHERE start_station_name IS NULL OR start_station_name = '' OR start_station_name = 'null';
