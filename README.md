@@ -98,7 +98,7 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 
 ### Total Number of Rides by Membership Types in 2024 
 <img width="427" height="308" alt="image" src="https://github.com/user-attachments/assets/88868acb-20d8-41fb-ae66-459f61a54537" />
-> *Explanation: Add 1-2 sentences here explaining what this chart tells us about how long casuals ride versus members.*
+  * Annual members in Cyclistic were the significanntly higher proportion which is 63% in total compare to the casual riders in 2024
 
 ### Total Rides by Day of the Week
 ![Chart 2 Screenshot](insert_image_link_here)
