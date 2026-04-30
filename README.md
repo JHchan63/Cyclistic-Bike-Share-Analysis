@@ -137,7 +137,7 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 
 * Although electric bikes are used more frequently, classic bikes account for the highest total riding duration. This is likely because classic bikes require more physical effort, resulting in longer, slower trips.
 * Even though members take nearly twice as many trips as casual riders, casual riders have a higher total trip duration overall.
-* This suggests that casual riders (who purchase single-ride or day passes) tend to ride for longer continuous periods to maximize the value of their pass, whereas members generally use the bikes for shorter, quicker trips like commuting.
+* This suggests that casual riders (who purchase single-ride or full-day ride passes) tend to ride for longer continuous periods to maximize the value of their pass, whereas members generally use the bikes for shorter, quicker trips like commuting.
 
 ### Weekly Average Ride Duration (Members vs. Casual Riders)  
 <img width="1542" height="830" alt="image" src="https://github.com/user-attachments/assets/d3820aa5-3b29-4b47-ad54-22966e97df82" />
