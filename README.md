@@ -120,39 +120,39 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 <img width="427" height="308" alt="image" src="https://github.com/user-attachments/assets/88868acb-20d8-41fb-ae66-459f61a54537" /> 
 <br>
 
-*  Annual members in Cyclistic were the significantly higher proportion which is 63% in total compared to the casual riders only 37% in total in 2024.
+*  Annual members accounted for a significantly higher proportion of total rides (63%) compared to casual riders (37%) in 2024.
 
 ### Total Number of Rides by Types of Bikes (Members vs. Casual Riders)  
 <img width="1543" height="829" alt="image" src="https://github.com/user-attachments/assets/f08e8d23-2a4f-4c52-a241-3c32726921d5" />
 <br>
 
-* Cyclistic have 3 types of bikes which is classic bike, electric bike and electric scooter.
-* Both members and casual riders in Cyclistic more prefer electric bike compared to other types of ride cause electric bike have the largest total amount of ride compared to other types of ride.
-
+* Cyclistic offers three types of rideable bikes: classic bikes, electric bikes, and electric scooters.
+* Electric bikes are the most preferred option for both annual members and casual riders, making up the largest volume of total rides.
+  
 ### Total Duration of Rides Among Different Types of Bikes (Members vs. Casual Riders)  
 <img width="1542" height="399" alt="image" src="https://github.com/user-attachments/assets/5cf8bc3a-8520-4306-b703-f6ae0ee4ad61" />
 <br>
 <img width="401" height="239" alt="image" src="https://github.com/user-attachments/assets/c4ba9d74-6133-4928-ad24-b81c2f49e5d2" />
 <br>
 
-* Altough electrical bikes have the highest amount of total rides but the highest of total riding time is classic bike, this is because the trip time that a classic bike will take longer than the electric bike as electric bike is take lower human power on riding.
-* Altough the distribution on total number of ride for members is significantly higher around double of casual riders, but casual riders have the higher total amount of trip duration compared to the members.
-* From the trip duration, we can conclude that day pass that used by casual user will take longer time using for bikes compared the to members due to the psychological thinking for the casual riders that when buying the day pass need to use it until the value earn back.
+* Although electric bikes are used more frequently, classic bikes account for the highest total riding duration. This is likely because classic bikes require more physical effort, resulting in longer, slower trips.
+* Even though members take nearly twice as many trips as casual riders, casual riders have a higher total trip duration overall.
+* This suggests that casual riders (who purchase single-ride or day passes) tend to ride for longer continuous periods to maximize the value of their pass, whereas members generally use the bikes for shorter, quicker trips like commuting.
 
 ### Weekly Average Ride Duration (Members vs. Casual Riders)  
 <img width="1542" height="830" alt="image" src="https://github.com/user-attachments/assets/d3820aa5-3b29-4b47-ad54-22966e97df82" />
 <br>
 
-* Weekend is the days that both members and casual riders spend longer average time compared to the weekdays
-* Casual riders spend longer time on riding no matter weekday or weekend
+* Both members and casual riders spend a longer average time riding on weekends compared to weekdays.
+* Casual riders consistently maintain a longer average ride duration than annual members, regardless of the day of the week.
 
 ### Monthly Total Ride Trips (Members vs. Casual Riders)  
 <img width="1543" height="799" alt="image" src="https://github.com/user-attachments/assets/e1e97640-8a06-4e9c-82e7-bd30c10447dd" />
 <br>
 
-* from the annual trend line chart, june to september is a upper trends which is the peak session months on using share bikes.
-* September is the most higher peak session in 2024.
-* start from october to january, it is the lower session on using share bike especially on january is the lowest session in 2024.
+* The annual trend line shows a steady increase in ridership from June to September, marking the peak season for the bike-share program.
+* September recorded the highest number of total rides in 2024.
+* Conversely, ridership drops significantly from October through January, with January experiencing the lowest overall usage of the year, likely due to winter weather conditions.
 
 ## 5. Share 📈
 To effectively communicate these findings to the executive team, I created an interactive dashboard in Tableau.
