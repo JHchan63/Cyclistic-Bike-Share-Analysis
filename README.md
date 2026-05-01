@@ -156,7 +156,7 @@ To ensure the data is accurate, consistent, and ready for analysis, I performed 
 
 ## 5. Share 📈
 To effectively communicate these findings to the executive team, I created an interactive dashboard in Tableau.
-
+### Dashboard
 **🔗 [View the Full Interactive Tableau Dashboard Here](https://public.tableau.com/app/profile/chan.jin.hui/viz/Cyclisticbikeshareanalysis_17772213034970/CyclisticBike-ShareDashboard)**
 
 <img width="1854" height="774" alt="Cyclistic Bike-Share Dashboard" src="https://github.com/user-attachments/assets/beeaa56c-1d74-4162-a388-46f74eb10da8" />
@@ -175,8 +175,8 @@ From the analysis, I have prepared the top three recommendations to help the mar
 2. **Recommendation 2:** (e.g., Launch targeted digital media campaigns on Friday afternoons offering discounts on annual memberships.)
 3. **Recommendation 3:** (e.g., Offer priority unlocking or discounted e-bike rates exclusively for annual members, as e-bikes are highly popular.)
 
-## Dashboard
-You can view the full interactive dashboard on my Tableau Public profile here: [Cyclistic Bike-Share Analysis Dashboard]
+
+
 
 
 
