@@ -176,11 +176,17 @@ To effectively communicate these findings to the executive team, I created an in
 
 
 ## 6. Act & Conclusion 💡
-From the analysis, I have prepared the top three recommendations to help the marketing team convert casual riders into annual members:
+From the analysis, I have prepared some recommendations to help the marketing team convert casual riders into annual members:
 
-1. **Recommendation 1:** (e.g., Introduce a "Weekend Warrior" annual membership tier since casual riders are most active on weekends.)
-2. **Recommendation 2:** (e.g., Launch targeted digital media campaigns on Friday afternoons offering discounts on annual memberships.)
-3. **Recommendation 3:** (e.g., Offer priority unlocking or discounted e-bike rates exclusively for annual members, as e-bikes are highly popular.)
+1. **Increase Electric Bike Inventory:** Since electric bikes show the highest overall demand, expanding the e-bike fleet will capture more rides, prevent inventory shortages during peak times, and improve general user satisfaction.
+   
+2. **Adjust Pricing to Encourage Conversion:** Slightly increase the pricing for single-ride and full-day passes while offering a highly visible "first-time signup" discount for the annual membership. This improves bike turnover rates by discouraging excessively long single rides and makes the annual membership visually more cost-effective.
+   
+3. **Introduce a "Stepping Stone" Monthly Pass:** Launch a monthly subscription tier to attract casual riders who are hesitant to commit to a full year. Careful price modeling is required to ensure this tier bridges the gap without cannibalizing existing annual memberships.
+
+4. **Launch Off-Peak & Weekday Campaigns:** Run targeted promotions during the winter months and on weekdays. Encouraging bike usage for daily commuting helps build a consistent riding habit, which directly increases the perceived value of an annual membership.
+
+5. **Leverage Eco-Friendly Marketing:** Utilize digital media to highlight the environmental benefits of bike-sharing. Positioning Cyclistic as a green, sustainable alternative to car travel can attract environmentally conscious casual riders and convert them into dedicated, long-term members.
 
 
 
