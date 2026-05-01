@@ -159,8 +159,8 @@ To effectively communicate these findings to the executive team, I created an in
 
 **🔗 [View the Full Interactive Tableau Dashboard Here](https://public.tableau.com/app/profile/chan.jin.hui/viz/Cyclisticbikeshareanalysis_17772213034970/CyclisticBike-ShareDashboard)**
 
-![Tableau Dashboard Preview](<img width="1854" height="774" alt="Cyclistic Bike-Share Dashboard" src="https://github.com/user-attachments/assets/beeaa56c-1d74-4162-a388-46f74eb10da8" />
-)
+<img width="1854" height="774" alt="Cyclistic Bike-Share Dashboard" src="https://github.com/user-attachments/assets/beeaa56c-1d74-4162-a388-46f74eb10da8" />
+
 
 ### 🔑 Key Insights
 1. **Insight 1:** (e.g., Casual riders ride twice as long as members, usually on weekends.)
