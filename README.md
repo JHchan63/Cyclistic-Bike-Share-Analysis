@@ -165,16 +165,12 @@ To effectively communicate these findings to the executive team, I created an in
 ### 🔑 Key Insights
 1. **Electric Bikes Dominate Demand:** Electric bikes are the most preferred rideable type across all user segments. Evidence shows that total ride volumes for electric bikes are significantly higher than classic bikes for both annual members and casual riders.
 <br>
-
 2. **Casual Riders Impact Fleet Turnover:** Although annual members take a higher number of trips, casual riders log significantly higher total riding times. This suggests casual riders (using single-ride or day passes) maximize their pass value through longer, continuous trips, while members take shorter, purposeful trips (e.g., commuting). Consequently, longer casual rides tie up inventory, reducing bike availability for other users and potentially limiting Cyclistic's daily revenue.
 <br>
-
 3. **Weekend Surges:** As expected, ride volume peaks on the weekends for both annual members and casual riders.
 <br>
-
 4. **Strong Seasonality:** Ridership exhibits a highly predictable seasonal trend. June to September (summer) is the peak season, while November to January (winter) sees the lowest usage. Cold weather predictably shifts commuters away from exposed transport like bicycles toward enclosed alternatives.
 <br>
-
 5. **Dockless Drop-offs are Highly Popular:** "On Street" (dockless) returns are the most common drop-off method overall. For physical docking stations, Streeter Dr & Grand Ave and DuSable Lake Shore Dr & Monroe St exhibit the highest demand.
 
 
