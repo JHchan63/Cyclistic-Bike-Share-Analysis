@@ -159,7 +159,8 @@ To effectively communicate these findings to the executive team, I created an in
 ### Dashboard
 **🔗 [View the Full Interactive Tableau Dashboard Here](https://public.tableau.com/app/profile/chan.jin.hui/viz/Cyclisticbikeshareanalysis_17772213034970/CyclisticBike-ShareDashboard)**
 
-<img width="1854" height="774" alt="Cyclistic Bike-Share Dashboard" src="https://github.com/user-attachments/assets/beeaa56c-1d74-4162-a388-46f74eb10da8" />
+<img width="1854" height="774" alt="Cyclistic Bike-Share Dashboard (1)" src="https://github.com/user-attachments/assets/1bed9ebc-54cc-4780-afd5-e04a64eb4f3f" />
+
 
 
 ### 🔑 Key Insights
